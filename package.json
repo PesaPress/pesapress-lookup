@@ -8,7 +8,7 @@
   "scripts": {
     "build": "babel src --out-dir dist"
   },
-  "keywords": [],
+  "keywords": ["mpesa","hashed","safaricom","decode","phone","pesapress"],
   "author": "Paul Kevin <paultitude@gmail.com>",
   "license": "ISC",
   "type": "commonjs",
