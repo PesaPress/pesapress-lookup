@@ -1,5 +1,7 @@
 ## PesaPress Lookup
 
+[![NPM](https://nodei.co/npm/pesapress-lookup.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.org/package/pesapress-lookup)
+
 ### Goal
 
 Make it easy to integrate [PesaPress](https://www.pesapress.com) number lookup service into any application to enable number hash decoding.
