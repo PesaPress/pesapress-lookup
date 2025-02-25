@@ -1,12 +1,19 @@
 {
   "name": "pesapress-lookup",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Mpesa lookup API by PesaPress",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PesaPress/pesapress-lookup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PesaPress/pesapress-lookup/issues"
   },
   "keywords": ["mpesa","hashed","safaricom","decode","phone","pesapress"],
   "author": "Paul Kevin <paultitude@gmail.com>",
