@@ -22,44 +22,13 @@ const { PesaPressLookup } = require('pesapress');
 const pesapress = new PesaPressLookup();
 ```
 
-###### Register email to get API key
-Register a new API key using your email.
-The API key will only be shown **once** and should be saved somewhere
-
-```javascript
-
-const resp = await pesapress.register('myemail@domain.com')
-
-if ( resp ) {
-	resp.apikey; // api key
-	resp.dailyCredits; // daily credits
-	resp.remainingCredits; // remaining daily credits
-} else {
-	// Error that email already exists
-}
-```
-
-###### Check remaining credits
-Check the remaining account credits
-
-```javascript
-
-const resp = await pesapress.status('YOURAPIKEY')
-
-if ( resp ) {
-	resp.dailyCredits; // daily credits
-	resp.remainingCredits; // remaining daily credits
-} else {
-	// Error that api key is invalid
-}
-```
 
 ###### Get mobile number from hash
 Check for a mobile number from a hash.
 
 ```javascript
 
-const resp = await pesapress.search('YOURAPIKEY', 'MOBILENUMBER_HASH')
+const resp = await pesapress.search('MOBILENUMBER_HASH')
 
 if ( resp ) {
 	resp.msisdn; // The decoded number
