@@ -1,6 +1,6 @@
 {
   "name": "pesapress-lookup",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Mpesa lookup API by PesaPress",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -21,12 +21,12 @@
   "type": "commonjs",
   "dependencies": {
     "@types/qs": "^6.14.0",
-    "axios": "^1.10.0",
+    "axios": "^1.11.0",
     "qs": "^6.14.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.26.4",
-    "@babel/preset-env": "^7.26.9",
-    "typescript": "^5.7.3"
+    "@babel/cli": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "typescript": "^5.8.3"
   }
 }
