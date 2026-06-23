@@ -5,7 +5,7 @@ export class PesaPressLookup {
 	private apiClient: ApiClient;
 
 	constructor() {
-		this.apiClient = new ApiClient({ baseURL : 'https://api.pesapress.com'});
+		this.apiClient = new ApiClient({ baseURL : 'https://lookup.pesapress.com'});
 	}
 
 	/**

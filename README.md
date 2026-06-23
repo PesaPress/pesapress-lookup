@@ -5,7 +5,7 @@
 ### Goal
 
 Make it easy to integrate [PesaPress](https://www.pesapress.com) number lookup service into any application to enable number hash decoding.
-Easy registration with only an email and get your number hash decoded.
+We use the endpoint https://lookup.pesapress.com/api/numbers/lookup/query to query urls.
 
 ### Usage
 
